@@ -11,6 +11,7 @@ public class Batido extends Bebida{
         precios.put(Tamano.MEDIANO, 0.99);
         precios.put(Tamano.GRANDE, 1.09);
     }
+
     @Override
     public double costo(){
         return precios.get(getTamano());

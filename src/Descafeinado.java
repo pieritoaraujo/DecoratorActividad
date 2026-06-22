@@ -11,6 +11,7 @@ public class Descafeinado extends Bebida{
         precios.put(Tamano.MEDIANO, 1.15);
         precios.put(Tamano.GRANDE, 1.25);
     }
+    @Override
     public double costo(){
         return precios.get(getTamano());
     }

@@ -18,7 +18,7 @@ public class Soya extends DecoratorComplemento {
     }
     @Override
     public double costo(){
-        return .15 + bebida.costo();
+        return bebida.costo() + precios.get(bebida.getTamano());
     }
     @Override
     public Tamano getTamano(){

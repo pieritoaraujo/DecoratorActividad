@@ -8,9 +8,9 @@ public class Moca extends DecoratorComplemento {
 
     public Moca(Bebida bebida){
         this.bebida = bebida;
-        precios.put(Tamano.NORMAL, 0.10);
-        precios.put(Tamano.MEDIANO, 0.15);
-        precios.put(Tamano.GRANDE, 0.20);
+        precios.put(Tamano.NORMAL, 0.20);
+        precios.put(Tamano.MEDIANO, 0.25);
+        precios.put(Tamano.GRANDE, 0.30);
     }
     @Override
     public String getDescripcion(){
